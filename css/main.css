@@ -1,23 +1,25 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Georgia', serif;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f0eee8
+}
 .link-card {
   color: #512200;
   border-radius: 8px;
   background-color: #dcd4cd;
   display: block;
   text-decoration: none;
-  max-width: 50%;
-  width: 800px;
+  max-width: 100%;
+  width: 320px;
   padding: 1rem;
-  margin: 1rem;
   border: solid 3px #9a816d;
 }
 .link-card:hover {
@@ -41,9 +43,9 @@ html {
   max-width: 50%;
 }
 
-h2 {
-  font-family: 'Dosis', sans-serif;
-  font-weight: 700;
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-style: bold;
   font-size: 1.5rem;
   color: #512200;
 }
@@ -57,7 +59,7 @@ dt {
 dd {
   text-align: justify;
   margin-right: 0;
-  font-weight: lighter;
+  font-style: italic;
 }
 
 dl {
