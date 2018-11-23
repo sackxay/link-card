@@ -9,8 +9,9 @@ html {
 }
 
 body {
-  background-color: #f0eee8
+  background-color: #f0eee8;
 }
+
 .link-card {
   color: #512200;
   border-radius: 8px;
@@ -22,9 +23,11 @@ body {
   padding: 1rem;
   border: solid 3px #9a816d;
 }
+
 .link-card:hover {
   background-color: #cabdb2;
 }
+
 .link-card:hover .btn {
   background-color: #512200;
 }
@@ -44,15 +47,15 @@ body {
 }
 
 .link-card h2 {
+  margin: 0;
   font-family: Dosis, sans-serif;
-  font-style: bold;
+  font-weight: bold;
   font-size: 1.5rem;
   color: #512200;
 }
 
 dt {
   float: left;
-  clear: left;
   margin-right: 100px;
 }
 
@@ -63,6 +66,8 @@ dd {
 }
 
 dl {
+  padding: 1rem;
+  font-size: .875rem;
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
 }
